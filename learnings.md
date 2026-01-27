@@ -1,0 +1,1 @@
+main.py is where all our logic for this project is gonna recide.
