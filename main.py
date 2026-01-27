@@ -657,6 +657,7 @@ class Repository:
 
 def main():
     parser = argparse.ArgumentParser(description="prsnl-git - A simple git clone!")
+    # argpars.ArgumentParser to extract the commands from the terminal/cli
     subparsers = parser.add_subparsers(dest="command", help="Available commands")
 
     # init command
