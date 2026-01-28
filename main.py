@@ -659,6 +659,9 @@ def main():
     parser = argparse.ArgumentParser(description="prsnl-git - A simple git clone!")
     # argpars.ArgumentParser to extract the commands from the terminal/cli
     subparsers = parser.add_subparsers(dest="command", help="Available commands")
+    # next, we wanna add something called as subparsers. this allows us to create subcommands within the cli application
+
+    # next, we wanna add something called as subparsers. this allows us to create subcommands within the cli application
 
     # init command
     init_parser = subparsers.add_parser("init", help="Initialize a new repository")
