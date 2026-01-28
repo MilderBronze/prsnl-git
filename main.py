@@ -665,7 +665,9 @@ def main():
 
     # init command
     init_parser = subparsers.add_parser("init", help="Initialize a new repository")
-
+    # so first goal is to get what the user is typing from the terminal.
+    # next step is to perform the user action. And thats why you read from the terminal.
+    
     # add command
     add_parser = subparsers.add_parser(
         "add", help="Add files and directories to the staging area"
