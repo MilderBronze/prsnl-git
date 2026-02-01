@@ -8,4 +8,7 @@ WORKDIR /app
 COPY . /app
 
 # Set the default command to run your application
+
+# everything above this line runs when you create your image
+# whatever you see after cmd below runs when you start your image
 CMD ["python", "main.py"]
