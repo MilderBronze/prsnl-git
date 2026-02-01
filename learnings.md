@@ -13,3 +13,7 @@ objects are used to store all of the objects like files. Example: git add main.p
 
 refs contain the referemces to the branches and all of that stuff.
 In git, everything is stored as bytes
+
+![alt text](image-1.png)
+This is about learning docker.
+see how you created your own image and no need of pulling this from the docker registry. and on running docker images, you see khudkagit image too.

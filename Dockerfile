@@ -12,3 +12,6 @@ COPY . /app
 # everything above this line runs when you create your image
 # whatever you see after cmd below runs when you start your image
 CMD ["python", "main.py"]
+# and then you goto terminal and type:
+# docker build -t whateverNameYouWannGiveYourImage
+# -t is a flag for Tag, meaning name of your image, So if i was the creator of mongo, i would name it mongo..
