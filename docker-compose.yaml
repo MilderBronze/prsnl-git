@@ -1,0 +1,9 @@
+services:
+  git:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: prsnl_git
+    volumes:
+      - .:/app
+    working_dir: /app
